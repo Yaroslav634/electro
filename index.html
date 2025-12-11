@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Конфигуратор щитового оборудования|АО "Электрощит Самара"</title>
+</head>
+<body>
+   <header>
+    <h1>АО "Электрощит-Самара"</h1>
+    <p>Онлайн-конфигуратор щитового оборудования</p>
+  </header>
+
+  <nav>
+    <a href="#">Главная</a>
+    <a href="#">Каталог</a>
+    <a href="#">Конфигуратор</a>
+    <a href="#">Контакты</a>
+  </nav>
+
+  <section>
+    <h2>Подбор и расчёт стоимости оборудования</h2>
+    <p>Заполните форму ниже, чтобы собрать щит под ваши задачи и мгновенно узнать стоимость.</p>
+
+    <form>
+      <label for="client-name">Ваше имя:</label>
+      <input type="text" id="client-name" placeholder="Введите имя или название организации">
+
+      <label>Тип корпуса:</label>
+      <div class="radio-group">
+        <input type="radio" name="corpus" id="corpus-1">
+        <label for="corpus-1" style="display: inline; font-weight: normal;">Щит уличный IP54</label><br>
+        <input type="radio" name="corpus" id="corpus-2">
+        <label for="corpus-2" style="display: inline; font-weight: normal;">Щит внутренний IP20</label><br>
+        <input type="radio" name="corpus" id="corpus-3">
+        <label for="corpus-3" style="display: inline; font-weight: normal;">Шкаф металлический 2000×800×600</label>
+      </div>
+
+      <label>Дополнительные опции:</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="auto-switch">
+        <label for="auto-switch" style="display: inline; font-weight: normal;">Автоматические выключатели</label><br>
+        <input type="checkbox" id="uzo">
+        <label for="uzo" style="display: inline; font-weight: normal;">Устройства защитного отключения (УЗО)</label><br>
+        <input type="checkbox" id="mounting">
+        <label for="mounting" style="display: inline; font-weight: normal;">Монтаж и пуско-наладка</label>
+      </div>
+
+      <button type="button">Рассчитать стоимость</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 АО "Электрощит-Самара". Все права защищены.</p>
+  </footer>
+</body>
+</html>
